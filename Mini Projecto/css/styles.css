@@ -1,0 +1,302 @@
+
+/*---Fuentes
+
+font-family: 'Playfair Display', serif;
+
+font-family: 'Montserrat', sans-serif; -----*/
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------------------------- Section #1 -----------------------------------*/
+
+
+.header {
+    width: 70%;
+    height: 90vh;
+    background-color: #fff;
+    margin: 50px 0 60px 0;
+    padding: 20px;
+}
+
+
+.title {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.p-and-image {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.italic-p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    width: 62%;
+    color: #333;
+}
+
+.header .principal-img {
+    width: 100%;
+    height: 450px;
+}
+
+
+.header .dots {
+    width: 13px;
+    height: 8px;
+    margin: 20px 10px 5px 10px;
+    color: #c4c4c4;
+}
+
+/*------------------------------------------End Section -------------------------------------------*/
+
+/*------------------------------------------- Section #2 ------------------------------------------*/
+
+.main-container {
+    width: 70%;
+    height: 105vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.subtitle {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333;
+    margin: 20px 0;
+}
+
+.div-ingredients {
+    width: 65%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.div-ingredients p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    margin: 10px 0 0 40px;
+}
+
+.check-and-p {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.false-check {
+    width: 21px;
+    height: 21px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+
+
+/*---------------------------------------------- Aside Section-----------------------------------------------*/
+
+.div-aside {
+    width: 216px;
+    height: 367px;
+    box-shadow: 0px 0px  20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.aside-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f2994a;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+    gap: 10px;
+    width: 200px;
+}
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.div-sub {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.orange-p {
+    color: #f2994a;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+.gray-p {
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+.min-title {
+    font-weight: 700;
+    font-size: 10px;
+    color: #bdbdbd;
+    margin: 0;
+}
+
+.icon-reloj {
+    color: #4f4f4f;
+}
+
+/*-------------------------------------------- End Section------------------------------------------*/
+
+/*--------------------------------------------- Third Section --------------------------------------*/
+
+.div-instructions {
+    width: 70%;
+    height: 200vh;
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+
+.in-div {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    align-items: baseline;
+}
+
+.orange-number {
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    border: 1px solid #F2994A;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 16px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    background-color: #F2994A;
+}
+
+.div-instructions p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 60px;
+    color: #000;
+}
+
+.bold {
+    font-weight: 700;
+    color: #333;
+}
+
+.bold-i {
+    font-style: italic;
+    font-weight: 500;
+    color: #333;
+}
+
+/*----- Icons ------*/
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
+  .material-icon-orange{
+      color: #F2994A;
+  }
+  
+  .naterial-icon-reloj {
+      color: #4F4F4F;
+  }
+
+
+
+  /*----------------------------------- Footer --------------------------------*/
+
+
+  footer {
+    width: 70%;
+    height: 30px;
+    background-color: #fff;
+    margin-bottom: 60px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #828282;
+}
+
+
+.bold-footer {
+    font-weight: 600;
+    text-decoration: underline;
+}
+  
